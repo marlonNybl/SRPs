@@ -7,8 +7,6 @@ import math
 
 st.header('**Sucker Rod Pump**')
 
-"""
-
 wellName = st.selectbox('Well:', ('A'))
 
 col1, col2 = st.beta_columns(2)
@@ -375,4 +373,4 @@ if uploaded_file is not None:
 
     st.success('Remaining TTF (days): ' + str(remainingTTF))
     
-    """
+   
